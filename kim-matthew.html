@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hai Trang Trong 1 File HTML</title>
+    <link rel="stylesheet" href="./thiep/xacnhan.css">
+    <style>
+        /* Ẩn tất cả các page mặc định */
+        .page {
+            display: none;
+        }
+        /* Định dạng cho tab buttons */
+        .tab-buttons {
+            margin-bottom: 10px;
+        }
+        .tab-buttons button {
+            padding: 10px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div class="tab-buttons">
+        <button onclick="showPage('page1')">Trang 1</button>
+        <button onclick="showPage('page2')">Trang 2</button>
+    </div> -->
+
+    <!-- Nội dung của Trang 1 -->
+    <div id="page1" class="page">
+        <div class="img-fir">
+            <img src="./thiep/anh/n-m-03.png" alt="" class="img-fir1">
+        </div>
+
+        <div class="name-fir">
+            <label for="" class="lb-fir">KIM NGUYEN</label>
+            <div class="and">
+                <hr class="line">
+                <label for="" class="lb-and">&</label>
+                <hr class="line">
+            </div>
+            <label for="" class="lb-fir">MATTHEW</label>
+        </div>
+
+        <div class="box-save">
+            <label for="" class="lb-save1">SAVE OUR DATE <br>
+                YOU ARE INVITED TO THE WEDDING CELEBRATION</label>
+            <div class="save-2">
+                <label for="" class="dot"><i class="fa-solid fa-circle"></i></label>
+                <label for="" class="lb-dot">Always and forever</label>
+                <label for="" class="dot"><i class="fa-solid fa-circle"></i></label>
+            </div>
+        </div>
+
+        <div class="box-click">
+
+            <a href="#" onclick="showPage('page2')" class="btn-click"><img src="./thiep/anh/icon-03.png" alt="" class="img-click"></a>
+            <label for="" class="lb-click">PLEASE CLICK HERE</label>
+        </div>
+    </div>
+
+    <!-- Nội dung của Trang 2 -->
+    <div id="page2" class="page">
+      <div class="box-form">
+                    <div class="box-grid2">
+                        <div class="item">SAVE THE DATE</div>
+                        <div class="item">
+                            ĐỨC VIỆT 
+                            <br>
+                            THANH HƯƠNG
+                        </div>
+                        <div class="item">29.12.2024</div>
+                    </div>
+                    <div class="forrm">
+                        <form action="" name="viet-huong">
+                            <div class="til til-custom">
+                                <label for="" class="title">BẠN LÀ KHÁCH CỦA CÔ DÂU/CHÚ RỂ ?</label>
+                            </div>
+                            <div class="container-check">
+                                <input class="box-feed" type="radio" value="CÔ DÂU" id="bride" name="BẠN BÈ">
+                                <label class="check-box" for="bride">
+                                    <h3 class="til-check">CÔ DÂU</h3>
+                                </label>
+                                <input class="box-feed" type="radio" value="CHÚ RỂ" id="groom" name="BẠN BÈ">
+                                <label class="check-box" for="groom">
+                                    <h3 class="til-check">CHÚ RỂ</h3>
+                                </label>
+                            </div>
+        
+                            <hr class="hr1">
+        
+                            <div class="feed-info">
+                                <label for="" class="in-fe">HÃY GIÀNH CHÚT THỜI GIAN THAM DỰ CÙNG CHÚNG MÌNH NHÉ</label>
+                            </div>
+        
+        
+                            <div class="container-check">
+                                <input class="box-feed" type="radio" value="CÓ" id="yes" name="XÁC NHẬN">
+                                <label class="check-box" for="yes">
+                                    <h3 class="til-check">CÓ</h3>
+                                </label>
+                                <input class="box-feed" type="radio" value="KHÔNG" id="no" name="XÁC NHẬN">
+                                <label class="check-box" for="no">
+                                    <h3 class="til-check">KHÔNG</h3>
+                                </label>
+                            </div>
+        
+                            <div class="box-ten">
+                                <input required class="inp-ten" type="text" name="TÊN" placeholder="Bạn tên gì thế?">
+                                <textarea id="message" name="LỜI CHÚC" rows="4" cols="50"
+                                    placeholder="Hãy gửi đôi lời iu thương dành cho chúng mình nha ^^"></textarea>
+                            </div>
+        
+                            <div class="wrapper">
+                                <button class="xacnhan" type="submit">XÁC NHẬN</button>
+                            </div>
+        
+                            <div class="box-end">
+                                <label for="" class="lb-end1">
+                                    Ngày vui sẽ trọn vẹn và ý nghĩa hơn khi có sự hiện diện của bạn.
+                                    <br>
+                                    Hãy tham dự và chung vui cùng chúng mình nhé! ^^
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+    </div>
+
+    <script>
+        // Hàm để hiển thị một trang và ẩn các trang khác
+        function showPage(pageId) {
+            // Ẩn tất cả các trang
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.style.display = 'none');
+            
+            // Hiển thị trang được chọn
+            const pageToShow = document.getElementById(pageId);
+            pageToShow.style.display = 'block';
+        }
+
+        // Mặc định hiển thị Trang 1
+        showPage('page1');
+    </script>
+
+</body>
+</html>

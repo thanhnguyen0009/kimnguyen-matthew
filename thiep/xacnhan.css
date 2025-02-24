@@ -1,0 +1,1184 @@
+@font-face {
+    font-family: 'SVN-Gilroy XLight';
+    src: url('../thiep/fonts/SVN-GilroyXLight.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyXLight.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyXLight.svg#SVN-GilroyXLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy XLight';
+    src: url('../thiep/fonts/SVN-GilroyXLightItalic.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyXLightItalic.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyXLightItalic.svg#SVN-GilroyXLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-Gilroy.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-Gilroy.woff') format('woff'),
+        url('../thiep/fonts/SVN-Gilroy.svg#SVN-Gilroy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyMedium.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyMedium.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyMedium.svg#SVN-GilroyMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyHeavy.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyHeavy.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyHeavy.svg#SVN-GilroyHeavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyLight.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyLight.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyLight.svg#SVN-GilroyLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroySemiBold.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroySemiBold.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroySemiBold.svg#SVN-GilroySemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyThin.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyThin.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyThin.svg#SVN-GilroyThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyBold.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyBold.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyBold.svg#SVN-GilroyBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyBlack.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyBlack.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyBlack.svg#SVN-GilroyBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyItalic.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyItalic.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyItalic.svg#SVN-GilroyItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyBoldItalic.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyBoldItalic.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyBoldItalic.svg#SVN-GilroyBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyMediumItalic.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyMediumItalic.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyMediumItalic.svg#SVN-GilroyMediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyLightItalic.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyLightItalic.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyLightItalic.svg#SVN-GilroyLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyHeavyItalic.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyHeavyItalic.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyHeavyItalic.svg#SVN-GilroyHeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyBlackItalic.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyBlackItalic.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyBlackItalic.svg#SVN-GilroyBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroyThinItalic.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyThinItalic.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyThinItalic.svg#SVN-GilroyThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../thiep/fonts/SVN-GilroySemiBoldItalic.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroySemiBoldItalic.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroySemiBoldItalic.svg#SVN-GilroySemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy XBold';
+    src: url('../thiep/fonts/SVN-GilroyXBoldItalic.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyXBoldItalic.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyXBoldItalic.svg#SVN-GilroyXBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gilroy XBold';
+    src: url('../thiep/fonts/SVN-GilroyXBold.woff2') format('woff2'),
+        url('../thiep/fonts/SVN-GilroyXBold.woff') format('woff'),
+        url('../thiep/fonts/SVN-GilroyXBold.svg#SVN-GilroyXBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '1FTV VIP Bastliga One';
+    src: url('../thiep/fonts/1FTVVIPBastligaOne.woff2') format('woff2'),
+        url('../thiep/fonts/1FTVVIPBastligaOne.woff') format('woff'),
+        url('../thiep/fonts/1FTVVIPBastligaOne.svg#1FTVVIPBastligaOne') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root {
+	--primary-color: #7E1327;
+	--font-gil: 'SVN-Gilroy';
+	--font-ftv: '1FTV VIP Bastliga One';
+}
+
+
+[data-aos] {
+	will-change: opacity, transform;
+}
+
+
+/* Hiệu ứng fade-up */
+.box-time, .date-time, .box-add {
+	transform: translateY(50px);
+	opacity: 0;
+	transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .box-time.visible, .date-time.visible, .box-add.visible {
+	transform: translateY(0);
+	opacity: 1;
+  }
+
+/* Hiệu ứng zoom-in */
+.lb-fir, .p-talk {
+	transform: scale(0.5);
+	opacity: 0;
+	transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .lb-fir.visible, .p-talk.visible {
+	transform: scale(1);
+	opacity: 1;
+  }
+  
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 480px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.container-wrapper {
+	/* height: 1000px; */
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+
+#page1{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-color);
+}
+
+.img-fir{
+	display: block;
+	margin: 50px 0 100px;
+}
+
+.img-fir1{
+	width: 40%;
+}
+
+.name-fir{
+	font-family: var(--font-gil);
+	color: #fff;
+	font-size: 2.5em;
+	margin-bottom: 100px;
+}
+
+.lb-fir{
+	font-size: .9em;
+}
+
+
+
+.and{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.line {
+	width: 50px;
+	border: none;
+	border-top: 1px solid #fff; /* Đường line màu đen */
+}
+
+.lb-and{
+	font-family: var(--font-ftv);
+	font-size: 1em;
+	padding: 0 30px;
+}
+
+
+.box-save, .box-click{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-gil);
+	color: #fff;
+}
+
+.lb-save1{
+	font-size: .8em;
+	letter-spacing: 1.7px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.save-2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.dot{
+	font-size: .4em;;
+}
+
+.lb-dot{
+	font-style: italic;
+	font-size: .8em;
+	padding: 0 20px;
+	
+}
+
+
+.box-click{
+	align-items: center;
+	justify-content: center;
+}
+
+.img-click{
+	width: 50%;
+}
+
+.lb-click{
+	font-weight: 500;
+	font-style: italic;
+	margin: 20px 0 100px;
+}
+
+
+#page2{
+	color: var(--primary-color);
+}
+
+.save-3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 50px 0 10px;
+}
+
+.dot{
+	font-size: .3em;;
+}
+
+.lb-dot2{
+	font-style: italic;
+	font-size: 1em;
+	padding: 0 20px;
+	
+}
+
+
+
+.name-sed{
+	font-family: var(--font-gil);
+	color: var(--primary-color);
+	font-size: 3em;
+	margin-bottom: 70px;
+}
+
+
+
+.and{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.line2 {
+	width: 50px;
+	border: none;
+	border-top: 1px solid var(--primary-color); /* Đường line màu đen */
+}
+
+.ring{
+	width: 15%;
+	margin-bottom: 40px;
+}
+
+.box-inv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: var(--font-gil);
+	margin: 50px 0 20px;
+	line-height: 20px;
+}
+
+.lb-inv1{
+	font-size: 2.5em;
+	margin-bottom: 50px;
+}
+
+.lb-inv2{
+	font-weight: 700;
+	font-size: .7em;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+.calendar{
+	margin: 80px 0;
+}
+
+.car{
+	width: 7%;
+}
+
+.date-time, .address, .box-add{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: var(--font-gil);
+}
+
+.lb-date{
+	font-size: 1em;
+}
+
+.date{
+	font-size: 2em;
+}
+
+
+.box-dot{
+	margin: 50px 0 70px;
+}
+
+
+.dot2{
+	font-size: .4em;
+}
+
+.lb-add1{
+	font-size: 2em;
+}
+
+.lb-add2{
+	font-size: .7em;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+
+.img-add{
+	width: 70%;
+}
+
+.btn-map{
+	display: flex;
+	width: 150px;
+	height: 30px;
+	background-color: var(--primary-color);
+	text-decoration: none;
+	font-weight: 700;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	margin: 20px 0 150px;
+	cursor: pointer;
+}
+
+
+.box-timeline, .box-time{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-gil);
+}
+
+.box-time{
+	margin-bottom: 50px;
+}
+
+.img-time{
+	width: 40%;
+}
+
+.lb-time{
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.img-time1{
+	width: 30%;
+}
+
+.img-time2{
+	width: 20%;
+}
+.img-time3{
+	width: 10%;
+}
+
+.box-timeline{
+	margin-bottom: 100px;
+}
+
+.talk{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-gil);
+	line-height: 20px;
+	margin-bottom: 100px;
+}
+
+.p-talk{
+	font-size: .8em;
+	margin-bottom: 20px;
+}
+.img-talk{
+	width: 10%;
+}
+
+
+
+.dresscode{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-gil);
+}
+
+
+.lb-dress{
+	font-size: 1.7em;
+	margin-bottom: 20px;
+}
+
+.img-dress{
+	width: 35%;
+}
+.img-dress2{
+	width: 50%;
+}
+
+
+.img-center{
+	margin: 60px 0;
+}
+
+
+.center{
+	width: 8%;
+}
+
+
+.box-form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* padding: 20px; */
+	/* margin-bottom: 20px; */
+}
+
+.box-til{
+	border: 2px solid var(--primary-color);
+	border-radius: 10px;
+	padding: 20px 10px;
+	font-family: var(--font-gil);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.lb-til1{
+	font-size: 1.6em;
+}
+
+
+.dina{
+	margin: 10px 0;
+}
+
+.dot3{
+	font-size: .4em;
+}
+
+.p-til{
+	font-size: .6em;
+	letter-spacing: 1px;
+}
+
+
+.forrm {
+	display: flex;
+	flex-direction: column;
+}
+
+.hr1 {
+	border: 0;
+	border-top: 2px solid var(--primary-color);
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 80%;
+	text-align: center;
+}
+
+.feed-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 10px 0 0 0;
+	line-height: 20px;
+}
+
+
+.in-fe {
+	font-size: 11px;
+	font-weight: 300;
+	font-family: 'SVN-Gotham';
+	padding: 10px;
+	/* margin-top: 480px; */
+}
+
+.til {
+	display: flex;
+	text-align: center;
+	font-family: 'SVN-gotham';
+	font-size: 10px;
+}
+
+.til-custom {
+	margin-bottom: 20px;
+}
+
+[type="radio"] {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	/* overflow: hidden; */
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	/* white-space: nowrap; */
+}
+
+
+.til {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: 'SVN-gotham';
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.container-check {
+	/* margin: 5px 0 20px 0; */
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* margin: 0 auto; */
+	font-family: 'SVN-Gotham';
+	font-weight: 300;
+}
+
+.container-check1 {
+	margin-top: 5px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* margin: 0 auto; */
+	font-family: 'SVN-Gotham';
+	font-weight: 300;
+}
+
+
+.box-feed:checked+label {
+	color: #fff;
+	background-color: #FBE1D7;
+}
+
+.box-feed {
+	border-radius: 20px;
+	width: 100px;
+	flex: 1;
+}
+
+.box-check {
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	font-family: 'SVN-Gotham';
+	border-radius: 20px;
+	/*margin: 0 15px;*/
+}
+
+.box-feed:checked+label {
+	color: #fff;
+	background-color: #FBE1D7;
+}
+
+
+.til-check {
+	/* margin: 0 auto; */
+	font-style: normal;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+
+.check-box {
+	width: 150px;
+	text-align: center;
+	display: inline-block;
+	border: 2px solid var(--primary-color);
+	padding: 5px 10px;
+	margin: 5px 20px;
+	border-radius: 20px;
+	font-style: normal;
+	/* background-color: #fff; */
+}
+
+.check-box2 {
+	width: 150px;
+	text-align: center;
+	display: inline-block;
+	border: 2px solid var(--primary-color);
+	padding: 5px 10px;
+	margin: 5px 20px;
+	border-radius: 20px;
+	font-style: normal;
+	/* background-color: #fff; */
+}
+
+.check-box1 {
+	width: 350px;
+	text-align: center;
+	display: inline-block;
+	border: 2px solid var(--primary-color);
+	padding: 5px 10px;
+	margin: 5px 20px;
+	border-radius: 20px;
+	font-style: normal;
+	/* background-color: #fff; */
+}
+
+.check-box3 {
+	width: 65px;
+	text-align: center;
+	display: inline-block;
+	border: 2px solid var(--primary-color);
+	padding: 5px 10px;
+	margin: 5px 20px;
+	border-radius: 20px;
+	font-style: normal;
+	/* background-color: #fff; */
+}
+
+.box-feed:checked+label {
+	color: #fff;
+	border: 2px solid var(--primary-color);
+	background-color: var(--primary-color);
+}
+
+.box-ten {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	font-family: 'SVN-Gontham';
+}
+
+.inp-ten {
+	width: 350px;
+	height: 30px;
+	text-align: left;
+	border-radius: 20px;
+	border: 2px solid var(--primary-color);
+	font-size: 12px;
+	font-weight: 300;
+	padding: 10px;
+	margin: 5px 0;
+	font-family: 'SVN-Gotham';
+	background: none;
+}
+
+.p-til, .title{
+	text-transform: uppercase;
+}
+
+textarea {
+	width: 350px;
+	height: 100px;
+	text-align: left;
+	border-radius: 20px;
+	border: 2px solid var(--primary-color);
+	font-size: 13px;
+	font-weight: 300;
+	padding: 10px;
+	margin: 5px 0;
+	font-family: 'SVN-Gotham';
+	background: none;
+}
+
+input::placeholder{
+	font-size: 10px;
+}
+
+textarea::placeholder{
+	font-size: 10px;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
+.xacnhan {
+	height: 30px;
+	font-size: 13px;
+	background: var(--primary-color);
+	color: var(--primary-color);
+	margin: 5px 10px 20px;
+	border-radius: 20px;
+	border: 1px solid var(--primary-color);
+	cursor: pointer;
+	width: 150px;
+	z-index: 2;
+	color: #fff;
+}
+
+.xacnhan:hover {
+	background: #fff;
+	color: var(--primary-color);
+}
+
+.img-end {
+	width: 100%;
+}
+
+.box-end {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	/* margin: 50px 0 60px 0; */
+	line-height: 15px;
+	color: #fff;
+	font-weight: 300;
+
+	margin-top: 40px;
+}
+
+.lb-end1 {
+	font-family: var(--font-gotham);
+	font-size: 10px;
+
+	margin-top: 25px;
+}
+
+.lb-end2 {
+	font-family: var(--font-gotham);
+	font-size: 9px;
+}
+
+
+.gift{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+/* Đảm bảo nút không có viền, nền, hoặc màu bao quanh */
+#openModalBtn {
+    background: none; /* Xóa nền của nút */
+    border: none; /* Xóa viền của nút */
+    padding: 0; /* Xóa khoảng cách trong nút */
+    cursor: pointer; /* Đảm bảo khi hover chuột, con trỏ thay đổi thành hình bàn tay */
+    
+    /* Căn giữa nội dung của nút */
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+/* Nếu có hình ảnh, giảm kích thước xuống 20% và căn giữa */
+#openModalBtn img {
+    border: none; /* Xóa viền của hình ảnh */
+    display: block; /* Đảm bảo hình ảnh không có khoảng cách bên dưới */
+    width: 50%; /* Giảm kích thước hình ảnh xuống 20% */
+    height: auto; /* Giữ tỷ lệ hình ảnh */
+}
+
+
+.lb-gift{
+	font-family: var(--font-gil);
+	font-weight: 600;
+	font-size: .7em;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+
+
+/* Modal */
+.modal {
+    display: none; /* Ẩn Modal mặc định */
+    position: fixed;
+    z-index: 999; /* Đảm bảo Modal hiển thị trên các nội dung khác */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền bán trong suốt */
+    opacity: 0; /* Ban đầu modal không nhìn thấy */
+    transform: scale(0.8); /* Modal bị co lại một chút */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Hiệu ứng mượt mà khi mở */
+}
+
+/* Nội dung Modal */
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    opacity: 1;
+    transform: scale(1); /* Nội dung modal không bị co lại */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+	z-index: 999;
+}
+
+.img-qr{
+	width: 100%;
+}
+
+/* Nút đóng Modal */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.end{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: var(--font-gil);
+	margin-bottom: 50px;
+}
+
+.lb-end{
+	font-size: .8em;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.lb-end2{
+	font-size: .8em;
+	font-style: italic;
+}
+
+
+
+
+/* ================================ */
+
+@media (max-width: 480px) {
+	.container {
+		width: 100%;
+	}
+
+	.info {
+		font-size: 10px;
+	}
+
+	.lichtrinh {
+		margin-left: 55px;
+	}
+
+	.img-map {
+		width: 90%;
+		margin-left: -20px;
+	}
+
+	.box-feed {
+		width: 50px;
+	}
+
+	.feed-info {
+		margin: 0;
+		line-height: 15px;
+	}
+
+	.in-fe {
+		font-size: 10px;
+		margin-bottom: 15px;
+	}
+
+	textarea {
+		height: 70px;
+	}
+
+	.icon {
+		width: 50%;
+	}
+
+	.til-custom {
+		margin-bottom: 20px;
+	}
+
+	.box-grid2 {
+		margin-bottom: 0;
+	}
+
+	.box-end {
+		margin-top: 10px;
+	}
+
+	.forrm {
+		width: 95%;
+		margin-bottom: 10px;
+	}
+
+	.lb-end1 {
+		margin-top: 30px;
+	}
+
+	.container-check {
+		margin-bottom: 10px;
+	}
+
+	.hr1 {
+		margin-bottom: 20px;
+	}
+
+	.slider {
+		height: 550px;
+	}
+}
+
+/* Loading screen container */
+.loading-container {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+}
+
+/* Spinner animation */
+.spinner {
+	border: 6px solid rgba(255, 255, 255, 0.3);
+	border-top: 6px solid #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	animation: spin 1s linear infinite;
+}
+
+/* Spinner animation keyframes */
+@keyframes spin {
+	0% {
+			transform: rotate(0deg);
+	}
+	100% {
+			transform: rotate(360deg);
+	}
+}
+
+.custom-popup {
+	font-family: 'SVN-gotham';
+}
+
+.custom-title {
+	font-weight: bold;
+}
+
+.custom-confirm-button {
+	text-align: center;
+	display: inline-block;
+	border: 2px solid var(--primary-color);
+	padding: 10px 20px !important;
+	margin: 5px 20px !important;
+	border-radius: 20px !important;
+	font-style: normal;
+	background-color: transparent;
+	color: var(--primary-color);
+
+	font-size: 13px;
+	font-weight: 400;
+
+	text-transform: uppercase;
+	font-weight: bold;
+}

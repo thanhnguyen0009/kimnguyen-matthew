@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Thông tin Open Graph cho ảnh đại diện -->
+    <meta property="og:image" content="https://yenstudio.com.vn/kim-matthew.jpg" />
+    <meta property="og:image:width" content="600" /> <!-- Chiều rộng ảnh đại diện -->
+    <meta property="og:image:height" content="300" /> <!-- Chiều cao ảnh đại diện -->
+
+    <!-- Các thông tin khác cho Open Graph -->
+    <meta property="og:title" content="KIM NGUYEN - MATTHEW" />
+    <meta property="og:description" content="KIM NGUYEN - MATTHEW" />
+    <meta property="og:url" content="https://yenstudio.com.vn/kim-matthew/thiepmoi.html" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./thiep/xacnhan.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>KIM NGUYEN - MATTHEW</title>
+    <style>
+        /* Ẩn tất cả các page mặc định */
+        .page {
+            display: none;
+        }
+        /* Định dạng cho tab buttons */
+        .tab-buttons {
+            margin-bottom: 10px;
+        }
+        .tab-buttons button {
+            padding: 10px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loading-container" class="loading-container">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="container">
+        <div class="container-wrapper">
+         
+             <!-- Trang 1 -->
+            <div id="page1" class="page active">
+                <div class="img-fir">
+                    <img src="./thiep/anh/n-m-03.png" alt="" class="img-fir1">
+                </div>
+
+                <div class="name-fir">
+                    <label for="" class="lb-fir">KIM NGUYEN</label>
+                    <div class="and">
+                        <hr class="line">
+                        <label for="" class="lb-and">&</label>
+                        <hr class="line">
+                    </div>
+                    <label for="" class="lb-fir">MATTHEW</label>
+                </div>
+
+                <div class="box-save">
+                    <label for="" class="lb-save1">SAVE OUR DATE <br>
+                        YOU ARE INVITED TO THE WEDDING CELEBRATION</label>
+                    <div class="save-2">
+                        <label for="" class="dot"><i class="fa-solid fa-circle"></i></label>
+                        <label for="" class="lb-dot">Always and forever</label>
+                        <label for="" class="dot"><i class="fa-solid fa-circle"></i></label>
+                    </div>
+                </div>
+
+                <div class="box-click">
+                    <a href="#" onclick="showPage('page2')" class="btn-click"><img src="./thiep/anh/icon-03.png" alt="" class="img-click"></a>
+                    <label for="" class="lb-click">PLEASE CLICK HERE</label>
+                </div>
+            </div>
+
+
+            <div id="page2" class="page">
+                <button onclick="showPage('page1')">Trang 1</button>
+                <div class="save-3">
+                    <label for="" class="dot"><i class="fa-solid fa-circle"></i></label>
+                    <label for="" class="lb-dot2">Always and forever</label>
+                    <label for="" class="dot"><i class="fa-solid fa-circle"></i></label>
+                </div>
+
+                <div class="name-sed">
+                    <label for="" class="lb-fir">KIM NGUYEN</label>
+                    <div class="and">
+                        <hr class="line2">
+                        <label for="" class="lb-and">&</label>
+                        <hr class="line2">
+                    </div>
+                    <label for="" class="lb-fir">MATTHEW</label>
+                </div>
+
+                <div class="box-ring">
+                    <img src="./thiep/anh/ring-03.png" alt="" class="ring">
+                </div>
+
+                <div class="box-inv">
+                    <label for="" class="lb-inv1">invitation</label>
+                    <label for="" class="lb-inv2">INVITE YOU TO JOIN US</label>
+                    <label for="" class="lb-inv3">TO THE CELEBRATION OF OUR WEDDING</label>
+                </div>
+
+                <div class="calendar">
+                    <img src="./thiep/anh/calendar-03.png" alt="" class="car">
+                </div>
+
+                <div class="fade-up date-time">
+                    <label for="" class="lb-date">DATE & TIME</label>
+                    <label for="" class="date">APRIL 19, 2025</label>
+                </div>
+                <div class="box-dot">
+                    <label for="" class="dot2"><i class="fa-solid fa-circle"></i></label>
+                </div>
+                <div class="address">
+                    <div class="fade-up box-add">
+                        <label for="" class="lb-add1">GEM CENTER</label>
+                        <label for="" class="lb-add2"><strong><i>7th FLOOR, SALTUS HALL</i></strong> – <br> 8 Nguyen Binh Khiem, Dakao Ward, District 1</label>
+                    </div>
+                    <img src="./thiep/anh/maps-03.png" alt="" class="img-add">
+                    <a href="https://maps.app.goo.gl/x721vtXaKouQwTDt7" class="btn-map">MAPS</a>
+                </div>
+
+
+                <div class="box-timeline">
+                    <div class="fade-up box-time">
+                        <img src="./thiep/anh/bell-03.png" alt="" class="img-time">
+                        <label for="" class="lb-time">timeline</label>
+                    </div>
+
+                    <div class="fade-up box-time">
+                        <img src="./thiep/anh/timeline1-03.png" alt="" class="img-time1">
+                        <label for="" class="lb-time1"><strong>4:00PM | </strong>PRIVATE VOWS</label>
+                    </div>
+
+                    <div class="fade-up box-time">
+                        <img src="./thiep/anh/timeline2-03.png" alt="" class="img-time3">
+                        <label for="" class="lb-time1"><strong>4:30PM | </strong>WELCOME GUEST & PHOTO SESSION</label>
+                    </div>
+
+                    <div class="fade-up box-time">
+                        <img src="./thiep/anh/timeline3-03.png" alt="" class="img-time1">
+                        <label for="" class="lb-time1"><strong>5:00PM | </strong>CEREMONY</label>
+                    </div>
+
+                    <div class="fade-up box-time">
+                        <img src="./thiep/anh/timeline4-03.png" alt="" class="img-time1">
+                        <label for="" class="lb-time1"><strong>6:30PM | </strong>RECEPTION</label>
+                    </div>
+
+                    <div class="fade-up box-time">
+                        <img src="./thiep/anh/timeline5-03.png" alt="" class="img-time1">
+                        <label for="" class="lb-time1"><strong>7:30PM | </strong>GAMES</label>
+                    </div>
+
+                    <div class="fade-up box-time">
+                        <img src="./thiep/anh/timeline6-03.png" alt="" class="img-time1">
+                        <label for="" class="lb-time1"><strong>8:30PM | </strong>DANCE</label>
+                    </div>
+
+                    <div class="fade-up box-time">
+                        <img src="./thiep/anh/timeline7-03.png" alt="" class="img-time2">
+                        <label for="" class="lb-time1"><strong>9:00PM | </strong>AFTER PARTY</label>
+                    </div>
+
+                    <div class="fade-up box-time">
+                        <img src="./thiep/anh/timeline8-03.png" alt="" class="img-time2">
+                        <label for="" class="lb-time1"><strong>11:00PM | </strong>LATE NIGHT SNACKS</label>
+                    </div>
+                </div>
+
+                <div class="talk">
+                    <p class="zoom-in p-talk">“We come to love not by finding a perfect person, <br>
+                        by learning to see an imperfect person perfectly”</p>
+                    <img src="./thiep/anh/n-m2-03.png" alt="" class="img-talk">
+                </div>
+
+                <div class="dresscode">
+                    <label for="" class="lb-dress">dresscode</label>
+                    <img src="./thiep/anh/dress1-03.png" alt="" class="img-dress">
+                    <img src="./thiep/anh/dress2-03.png" alt="" class="img-dress2">
+                </div>
+
+                <div class="img-center">
+                    <img src="./thiep/anh/form-03.png" alt="" class="center">
+                </div>
+
+                
+                <div class="box-form">
+                    <div class="box-til">
+                        <label for="" class="lb-til1">Attendance confirmation</label>
+                        <div class="dina">
+                            <label for="" class="dot3"><i class="fa-solid fa-diamond"></i></label>
+                        </div>
+                            <p class="p-til">WE KINDLY request that you confirm your attendance <br>
+                            by March 31, so we may prepare accordingly.</p>
+                    </div>
+                    <div class="forrm">
+                        <form action="" name="kim-matthew">
+                            <div class="container-check">
+                                <input class="box-feed" type="radio" value="CÓ" id="yes" name="CONFIRM" required>
+                                <label class="check-box" for="yes">
+                                    <h3 class="til-check">YES</h3>
+                                </label>
+                                <input class="box-feed" type="radio" value="KHÔNG" id="no" name="CONFIRM" required>
+                                <label class="check-box" for="no">
+                                    <h3 class="til-check">NO</h3>
+                                </label>
+                            </div>
+                            
+                            <div class="box-ten">
+                                <input required class="inp-ten" type="text" name="NAME" placeholder="Name">
+                                <input required class="inp-ten" type="number" name="ATTENDANCE" placeholder="NUMBER OF ATTENDANCE" min="0" max="9" maxlength="1">
+
+                            </div>
+                            <div class="til til-custom">
+                                <label for="" class="title">Do you have any dietary requirements? </label>
+                            </div>
+                            <div class="container-check">
+                                <input class="box-feed" type="radio" value="NON - VEGETARIAN" id="bride" name="VEGETARIAN">
+                                <label class="check-box" for="bride">
+                                    <h3 class="til-check">NON - VEGETARIAN</h3>
+                                </label>
+                                <input class="box-feed" type="radio" value="VEGETARIAN" id="groom" name="VEGETARIAN">
+                                <label class="check-box" for="groom">
+                                    <h3 class="til-check">VEGETARIAN</h3>
+                                </label>
+                            </div>
+
+                            <div class="box-ten">
+                                <textarea id="message" name="ANOTHER" rows="4" cols="50"
+                                    placeholder="ANOTHER?"></textarea>
+                            </div>
+        
+                            <div class="wrapper">
+                                <button class="xacnhan" type="submit">CONFIRM</button>
+                            </div>
+        
+                           
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="gift">
+                    <button id="openModalBtn"><img src="./thiep/anh/icon-03.png" alt="" class="img-gift"></button>
+                    <label for="" class="lb-gift"><i>SEND WEDDING GIFTS TO KIM NGUYEN & MATTHEW <br>
+                        CLICK HERE</i></label>
+                </div>
+
+                <!-- Modal -->
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <!-- <h2>Đây là Modal</h2> -->
+                        <img src="./thiep/anh/qr.jpg" alt="" class="img-qr">
+                    </div>
+                </div>
+
+                <div class="end">
+                    <label for="" class="lb-end"> WE SINCERELY HOPE TO HAVE YOU THERE ON THIS IMPORTANT DAY <br>
+                        TO WITNESS AND SHARE THIS HAPPINESS WITH US.</label>
+                    <label for="" class="lb-end2">Thank you very much.</label>
+                </div>
+            </div>
+
+
+
+        
+    </div>
+    </div>
+
+<script>window.onload = function() {
+    // Lấy tất cả các phần tử cho các hiệu ứng fade-down, fade-up, fade-right, fade-left, zoom-in
+    const fadeDownElements = document.querySelectorAll('.lb4, .lb44, .img-timeline, .img-dress, .til1');  // Các phần tử fade-down
+    const fadeUpElements = document.querySelectorAll('.box-time, .date-time, .box-add');    // Các phần tử fade-up
+    const fadeRightElements = document.querySelectorAll('.lb3, .story1');                               // Các phần tử fade-right
+    const fadeLeftElements = document.querySelectorAll('.lb3, .story2');                                // Các phần tử fade-left
+    const zoomInElements = document.querySelectorAll('.lb-fir, .p-talk');                // Các phần tử zoom-in
+
+    // Cấu hình của IntersectionObserver
+    const options = {
+        root: null, // Theo mặc định là viewport
+        threshold: 0.5 // Kích hoạt khi 50% phần tử hiển thị trong viewport
+    };
+
+    // Tạo đối tượng IntersectionObserver để theo dõi sự xuất hiện và mất đi của phần tử
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Nếu phần tử xuất hiện trong viewport, thêm lớp "visible"
+                entry.target.classList.add('visible');
+            } else {
+                // Nếu phần tử không còn trong viewport, xóa lớp "visible"
+                entry.target.classList.remove('visible');
+            }
+        });
+    }, options);
+
+    // Quan sát các phần tử theo từng hiệu ứng
+    fadeDownElements.forEach(element => observer.observe(element));
+    fadeUpElements.forEach(element => observer.observe(element));
+    fadeRightElements.forEach(element => observer.observe(element));
+    fadeLeftElements.forEach(element => observer.observe(element));
+    zoomInElements.forEach(element => observer.observe(element));
+};
+</script>
+
+
+    <script>
+// Hàm để hiển thị một trang và ẩn các trang khác
+function showPage(pageId) {
+    // Lưu trang đang hiển thị vào localStorage
+    localStorage.setItem('currentPage', pageId);
+    
+    // Ẩn tất cả các trang
+    const pages = document.querySelectorAll('.page');
+    pages.forEach(page => page.style.display = 'none');
+    
+    // Hiển thị trang được chọn
+    const pageToShow = document.getElementById(pageId);
+    pageToShow.style.display = 'block';
+}
+
+// Khi trang web được tải lại, kiểm tra xem trang nào cần hiển thị
+document.addEventListener('DOMContentLoaded', () => {
+    const savedPage = localStorage.getItem('currentPage') || 'page1'; // Mặc định là 'page1' nếu không có giá trị
+    showPage(savedPage);
+});
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz-ZthhxZdLM2_4xZ2cCXRsUtSH6Wd5yL6LBHQ3mKm3vJ05Q1hqBHa7KE18z0H6GsY/exec';
+        const form = document.forms['kim-matthew'];
+
+        form.addEventListener('submit', e => {
+            e.preventDefault(); // Ngừng việc gửi form mặc định
+
+            document.getElementById('loading-container').style.display = 'flex';
+
+            // Gửi dữ liệu form đi
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Nếu dữ liệu gửi thành công, làm mới lại form
+                        form.reset(); // Làm mới lại form
+
+                        document.getElementById('loading-container').style.display = 'none';
+
+                        Swal.fire({
+                            title: 'Complete',
+                            text: 'Thank you for your feedback, the information has been sent to the bride and groom!!',
+                            imageWidth: 300,
+                            imageHeight: 200,
+                            confirmButtonText: 'CLOSE',
+                            background: '#f8f8f8',
+                            padding: '20px',
+                            customClass: {
+                                popup: 'custom-popup',
+                                title: 'custom-title',
+                                confirmButton: 'custom-confirm-button'
+                            },
+                            didOpen: () => {
+                                document.querySelector('.swal2-popup').style.borderRadius = '10px'; // Bo tròn các góc
+                            }
+                        });
+                    } else {
+                        // Nếu gặp lỗi khi gửi dữ liệu
+                        console.error('Error!', response);
+
+                        document.getElementById('loading-container').style.display = 'none';
+
+                        Swal.fire({
+                            title: 'Oops!',
+                            text: 'Lỗi mất rồi thử lại giúp chúng mình nhé',
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                })
+                .catch(error => {
+                    // Xử lý lỗi nếu có
+                    console.error('Error!', error.message);
+
+                    document.getElementById('loading-container').style.display = 'none';
+
+                    Swal.fire({
+                        title: 'Oops!',
+                        text: 'Lỗi mất rồi thử lại giúp chúng mình nhé',
+                        icon: 'error',
+                        confirmButtonText: 'OK'
+                    });
+                });
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Khởi tạo AOS
+        AOS.init();
+    </script>
+   
+    <script>
+// Lấy các phần tử cần thiết
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("openModalBtn");
+var span = document.getElementsByClassName("close")[0];
+
+// Mở Modal khi nhấn nút
+btn.onclick = function() {
+    modal.style.display = "block";
+    setTimeout(function() {
+        modal.style.opacity = "1";  // Làm modal mờ dần
+        modal.style.transform = "scale(1)"; // Mở modal với hiệu ứng phóng to
+    }, 10);
+}
+
+// Đóng Modal khi nhấn vào dấu X
+span.onclick = function() {
+    modal.style.opacity = "0";  // Làm modal mờ dần
+    modal.style.transform = "scale(0.8)"; // Hiệu ứng thu nhỏ
+    setTimeout(function() {
+        modal.style.display = "none"; // Ẩn modal khi đã hết hiệu ứng
+    }, 300); // Thời gian khớp với thời gian transition
+}
+
+// Đóng Modal nếu người dùng nhấn ra ngoài modal
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.opacity = "0";  // Làm modal mờ dần
+        modal.style.transform = "scale(0.8)"; // Hiệu ứng thu nhỏ
+        setTimeout(function() {
+            modal.style.display = "none"; // Ẩn modal khi đã hết hiệu ứng
+        }, 300);
+    }
+}
+
+    </script>
+   
+    <script src="./thiep/thiep.js"></script>
+</body>
+
+</html>
