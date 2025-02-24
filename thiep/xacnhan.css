@@ -624,6 +624,7 @@
 	padding: 5px;
 	border-radius: 40px;
 	justify-content: center;
+	align-items: center;
 	margin-bottom: 15px;
 }
 
@@ -640,8 +641,14 @@
 }
 
 .img-color{
-	width: 10%;
+	width: 60%;
+	transition: transform 0.3s;
 }
+
+.img-color:hover {
+	transform: scale(1.1); /* Phóng to khi hover */
+  }
+  
 
 .center{
 	width: 8%;
@@ -719,7 +726,7 @@
 .in-fe {
 	font-size: 11px;
 	font-weight: 300;
-	font-family: 'SVN-Gotham';
+	font-family: var(--font-gil);
 	padding: 10px;
 	/* margin-top: 480px; */
 }
@@ -727,7 +734,7 @@
 .til {
 	display: flex;
 	text-align: center;
-	font-family: 'SVN-gotham';
+	font-family: var(--font-gil);
 	font-size: 10px;
 }
 
@@ -752,7 +759,7 @@
 	display: flex;
 	text-align: center;
 	justify-content: center;
-	font-family: 'SVN-gotham';
+	font-family: var(--font-gil);
 	font-size: 12px;
 	margin-top: 20px;
 }
@@ -765,7 +772,7 @@
 	justify-content: center;
 	align-items: center;
 	/* margin: 0 auto; */
-	font-family: 'SVN-Gotham';
+	font-family: var(--font-gil);
 	font-weight: 300;
 }
 
@@ -777,7 +784,7 @@
 	justify-content: center;
 	align-items: center;
 	/* margin: 0 auto; */
-	font-family: 'SVN-Gotham';
+	font-family: var(--font-gil);
 	font-weight: 300;
 }
 
@@ -785,6 +792,11 @@
 .box-feed:checked+label {
 	color: #fff;
 	background-color: #FBE1D7;
+}
+
+.check-box:hover{
+	background-color: var(--primary-color);
+	color: #fff;
 }
 
 .box-feed {
@@ -797,7 +809,7 @@
 	display: inline-block;
 	align-items: center;
 	justify-content: center;
-	font-family: 'SVN-Gotham';
+	font-family: var(--font-gil);
 	border-radius: 20px;
 	/*margin: 0 15px;*/
 }
@@ -888,7 +900,7 @@
 	font-weight: 300;
 	padding: 10px;
 	margin: 5px 0;
-	font-family: 'SVN-Gotham';
+	font-family: var(--font-gil);
 	background: none;
 }
 
@@ -906,7 +918,7 @@ textarea {
 	font-weight: 300;
 	padding: 10px;
 	margin: 5px 0;
-	font-family: 'SVN-Gotham';
+	font-family: var(--font-gil);
 	background: none;
 }
 
@@ -935,14 +947,15 @@ textarea::placeholder{
 	border: 1px solid var(--primary-color);
 	cursor: pointer;
 	width: 150px;
-	z-index: 2;
+	z-index: 1;
 	color: #fff;
+	position: relative;
 }
 
-/* .xacnhan:hover {
+.xacnhan:hover {
 	background: #fff;
 	color: var(--primary-color);
-} */
+}
 
 .img-end {
 	width: 100%;
@@ -1004,6 +1017,12 @@ textarea::placeholder{
 }
 
 
+.btn-modal{
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
 .lb-gift{
 	font-family: var(--font-gil);
 	font-weight: 600;
@@ -1012,54 +1031,63 @@ textarea::placeholder{
 	margin-top: 10px;
 }
 
-
-/* Modal */
+/* Modal Style */
 .modal {
-    display: none; /* Ẩn Modal mặc định */
-    position: fixed;
-    z-index: 999; /* Đảm bảo Modal hiển thị trên các nội dung khác */
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Màu nền bán trong suốt */
-    opacity: 0; /* Ban đầu modal không nhìn thấy */
-    transform: scale(0.8); /* Modal bị co lại một chút */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Hiệu ứng mượt mà khi mở */
-}
-
-/* Nội dung Modal */
-.modal-content {
-    background-color: #fff;
-    margin: 5% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 500px;
-    opacity: 1;
-    transform: scale(1); /* Nội dung modal không bị co lại */
-    transition: opacity 0.3s ease, transform 0.3s ease;
-	z-index: 999;
-}
-
-.img-qr{
+	display: none; /* Ẩn modal khi không cần thiết */
+	position: fixed; /* Đặt modal ở vị trí cố định */
+	z-index: 1; /* Đảm bảo modal ở trên cùng */
+	left: 0;
+	top: 0;
 	width: 100%;
-}
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.7); /* Màu nền mờ */
+  }
+  
+  .modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	z-index: 999;
+	margin-top: 20px;
+  }
+  
+  .close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  .img-qr {
+	width: 80%;
+	height: auto;
+  }
+  
+  .img-gift {
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	transition: transform 0.3s;
+  }
+  
+  .img-gift:hover {
+	transform: scale(1.1); /* Phóng to khi hover */
+  }
+  
 
-/* Nút đóng Modal */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
 
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 
 .end{
@@ -1157,6 +1185,10 @@ textarea::placeholder{
 		margin-bottom: 20px;
 	}
 
+	.img-qr{
+		width: 100%;
+	}
+
 	.slider {
 		height: 550px;
 	}
@@ -1210,7 +1242,7 @@ textarea::placeholder{
 }
 
 .custom-popup {
-	font-family: 'SVN-gotham';
+	font-family: var(--font-gil);
 }
 
 .custom-title {

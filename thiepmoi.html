@@ -198,10 +198,34 @@
                         <label for="" class="sex">WOMEN</label>
                         <label for="" class="class"><i>(Formal Dress): </i></label>
                         <label for="" class="class"><strong>RED</strong></label>
-                        <img src="./thiep/anh/color2-04.png" alt="" class="img-color">
-                        <img src="./thiep/anh/color3-04.png" alt="" class="img-color">
+                        <!-- Buttons to open modals -->
+                        <button id="openModalBtn1" class="btn-modal"><img src="./thiep/anh/color2-04.png" alt="" class="img-color"></button>
+                        <button id="openModalBtn2" class="btn-modal"><img src="./thiep/anh/color3-04.png" alt="" class="img-color"></button>
                     </div>
                 </div>
+
+
+                <!-- Modal 1 -->
+                <div id="myModal1" class="modal">
+                    <div class="modal-content">
+                    <span class="close" id="close1">&times;</span>
+                    <img src="./thiep/anh/red2.webp" alt="QR 1" class="img-qr">
+                    </div>
+                </div>
+                
+                <!-- Modal 2 -->
+                <div id="myModal2" class="modal">
+                    <div class="modal-content">
+                    <span class="close" id="close2">&times;</span>
+                    <img src="./thiep/anh/red1.jpg" alt="QR 2" class="img-qr">
+                    </div>
+                </div>
+                
+ 
+  
+
+
+
 
                 <div class="img-center">
                     <img src="./thiep/anh/form-03.png" alt="" class="center">
@@ -265,19 +289,18 @@
 
 
                 <div class="gift">
-                    <button id="openModalBtn"><img src="./thiep/anh/icon-03.png" alt="" class="img-gift"></button>
+                    <button id="openModalBtn3" class="btn-modal"><img src="./thiep/anh/icon-03.png" alt="Gift 3" class="img-gift"></button>
                     <label for="" class="lb-gift"><i>SEND WEDDING GIFTS TO KIM NGUYEN & MATTHEW <br>
                         CLICK HERE</i></label>
                 </div>
 
-                <!-- Modal -->
-                <div id="myModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <!-- <h2>Đây là Modal</h2> -->
-                        <img src="./thiep/anh/qr.jpg" alt="" class="img-qr">
+                 <!-- Modal 3 -->
+                    <div id="myModal3" class="modal">
+                        <div class="modal-content">
+                        <span class="close" id="close3">&times;</span>
+                        <img src="./thiep/anh/qr.jpg" alt="QR 3" class="img-qr">
+                        </div>
                     </div>
-                </div>
 
                 <div class="end">
                     <label for="" class="lb-end"> WE SINCERELY HOPE TO HAVE YOU THERE ON THIS IMPORTANT DAY <br>
@@ -426,38 +449,58 @@ document.addEventListener('DOMContentLoaded', () => {
     </script>
    
     <script>
-// Lấy các phần tử cần thiết
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("openModalBtn");
-var span = document.getElementsByClassName("close")[0];
+            // Modal 1
+const modal1 = document.getElementById('myModal1');
+const openModalBtn1 = document.getElementById('openModalBtn1');
+const close1 = document.getElementById('close1');
 
-// Mở Modal khi nhấn nút
-btn.onclick = function() {
-    modal.style.display = "block";
-    setTimeout(function() {
-        modal.style.opacity = "1";  // Làm modal mờ dần
-        modal.style.transform = "scale(1)"; // Mở modal với hiệu ứng phóng to
-    }, 10);
+// Modal 2
+const modal2 = document.getElementById('myModal2');
+const openModalBtn2 = document.getElementById('openModalBtn2');
+const close2 = document.getElementById('close2');
+
+// Modal 3
+const modal3 = document.getElementById('myModal3');
+const openModalBtn3 = document.getElementById('openModalBtn3');
+const close3 = document.getElementById('close3');
+
+// Mở các modal
+openModalBtn1.onclick = function() {
+  modal1.style.display = "block";
 }
 
-// Đóng Modal khi nhấn vào dấu X
-span.onclick = function() {
-    modal.style.opacity = "0";  // Làm modal mờ dần
-    modal.style.transform = "scale(0.8)"; // Hiệu ứng thu nhỏ
-    setTimeout(function() {
-        modal.style.display = "none"; // Ẩn modal khi đã hết hiệu ứng
-    }, 300); // Thời gian khớp với thời gian transition
+openModalBtn2.onclick = function() {
+  modal2.style.display = "block";
 }
 
-// Đóng Modal nếu người dùng nhấn ra ngoài modal
+openModalBtn3.onclick = function() {
+  modal3.style.display = "block";
+}
+
+// Đóng các modal
+close1.onclick = function() {
+  modal1.style.display = "none";
+}
+
+close2.onclick = function() {
+  modal2.style.display = "none";
+}
+
+close3.onclick = function() {
+  modal3.style.display = "none";
+}
+
+// Khi người dùng nhấn vào bất kỳ nơi nào ngoài modal, đóng modal
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.opacity = "0";  // Làm modal mờ dần
-        modal.style.transform = "scale(0.8)"; // Hiệu ứng thu nhỏ
-        setTimeout(function() {
-            modal.style.display = "none"; // Ẩn modal khi đã hết hiệu ứng
-        }, 300);
-    }
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
 }
 
     </script>
