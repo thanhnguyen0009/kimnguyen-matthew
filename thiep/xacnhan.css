@@ -1031,7 +1031,7 @@ textarea::placeholder{
 /* Nội dung Modal */
 .modal-content {
     background-color: #fff;
-    margin: 15% auto;
+    margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
@@ -1160,6 +1160,19 @@ textarea::placeholder{
 	.slider {
 		height: 550px;
 	}
+	/* Nội dung Modal */
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    opacity: 1;
+    transform: scale(1); /* Nội dung modal không bị co lại */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+	z-index: 999;
+}
 }
 
 /* Loading screen container */
