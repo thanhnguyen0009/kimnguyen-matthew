@@ -926,6 +926,10 @@ input::placeholder{
 	font-size: 10px;
 }
 
+input:focus, textarea:focus{
+	color: var(--primary-color);
+}
+
 textarea::placeholder{
 	font-size: 10px;
 }
